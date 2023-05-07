@@ -31,4 +31,11 @@ public class Employee extends Person {
     public void setYearOfExp(int yearOfExp) {
         this.yearOfExp = yearOfExp;
     }
+
+    @Override
+    public String toString(){
+        return "Employee ID: " + ID + "\n" + "Employee Name: " + name + "\n" + "Age: " + age + "\n" + "Country: " + country
+        + "\n" + "City: " + city + "\n" + "Salary: " + salary + "\n" + "Department: " + department + "\n"
+                + "Years of Experience: " + yearOfExp;
+    }
 }

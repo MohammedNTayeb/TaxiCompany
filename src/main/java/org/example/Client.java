@@ -15,4 +15,10 @@ public class Client extends Person {
     public void setDiscountCat(String discountCat) {
         this.discountCat = discountCat;
     }
+
+    @Override
+    public String toString(){
+        return "Client ID: " + ID + "\n" + "Client Name: " + name + "\n" + "Age: " + age + "\n" + "Country: " + country
+                + "\n" + "City: " + city + "\n" + "Type: " + type + "\n" + "Discount Category: " + discountCat;
+    }
 }

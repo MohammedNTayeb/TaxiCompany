@@ -69,4 +69,10 @@ public abstract class Vehicle {
     }
 
     public abstract double chargePerKm();
+
+    @Override
+    public String toString(){
+        return "Vehicle ID: " + ID + "\n" + "Brand: " + brand + "\n" + "Model: " + model
+                + "\n" + "Age: " + age + "\n" + "Color: " + color + "\n" + "Size: " + size;
+    }
 }

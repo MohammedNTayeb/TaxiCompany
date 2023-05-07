@@ -1,0 +1,252 @@
+[INFO ] 2023-05-07 01:33:25.549 [main] App - Employee ID: 1
+Employee Name: James
+Age: 35
+Country: Poland
+City: Warsaw
+Salary: 2000.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:33:25.573 [main] App - ============Client============
+[INFO ] 2023-05-07 01:33:25.588 [main] App - Client ID: 1
+Client Name: Mike
+Age: 35
+Country: Poland
+City: Warsaw
+Type: Client
+Discount Category: Student
+[INFO ] 2023-05-07 01:33:25.588 [main] App - ============Driver============
+[INFO ] 2023-05-07 01:33:25.604 [main] App - Driver ID: 1
+First Name: Mark
+Last Name: Jones
+Age: 26
+Country: Poland
+City: Warsaw
+Type: Driver
+[INFO ] 2023-05-07 01:33:25.607 [main] RecruitingDriver - Driver ID: 1
+First Name: Mark
+Last Name: Jones
+Age: 26
+Country: Poland
+City: Warsaw
+Type: Driver
+[INFO ] 2023-05-07 01:33:25.608 [main] App - ============Vehicle and Charge============
+[INFO ] 2023-05-07 01:33:25.619 [main] App - Vehicle ID: 1
+Brand: Toyota
+Model: Yaris
+Age: 3
+Color: Silver
+Size: Compact
+[INFO ] 2023-05-07 01:33:25.623 [main] App - Charge per Km: 12.5
+[INFO ] 2023-05-07 01:33:25.624 [main] App - ============Trip Details============
+[INFO ] 2023-05-07 01:33:25.663 [main] App - Trip ID: 1
+Driver ID: 1
+Client ID: 1
+Brand: Toyota
+Model: Yaris
+Color: Silver
+Age: 3
+Size: Compact
+Distance: 16.0
+Driver Name: James
+Client Name: Adam
+[INFO ] 2023-05-07 01:33:25.664 [main] App - Charge Per KM: 12.5 PLN
+[INFO ] 2023-05-07 01:33:25.668 [main] App - Discount Applied: 0.1
+[INFO ] 2023-05-07 01:33:25.669 [main] App - Discount Amount: 20.0 PLN
+[INFO ] 2023-05-07 01:33:25.669 [main] App - Discount Category: Student
+[INFO ] 2023-05-07 01:33:25.670 [main] App - Total charge BEFORE discount: 200.0 PLN
+[INFO ] 2023-05-07 01:33:25.671 [main] App - Total charge AFTER discount: 180.0 PLN
+[INFO ] 2023-05-07 01:33:25.672 [main] App - Trip Rating: 5.0
+[INFO ] 2023-05-07 01:33:25.672 [main] App - ============Vehicle type initializing============
+[INFO ] 2023-05-07 01:33:25.678 [main] App - ============Finance Department Employees============
+[INFO ] 2023-05-07 01:33:25.682 [main] Finance - Employee ID: 1
+Employee Name: James
+Age: 35
+Country: Poland
+City: Warsaw
+Salary: 2000.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:33:25.684 [main] Finance - Employee ID: 2
+Employee Name: Steve
+Age: 25
+Country: Poland
+City: Warsaw
+Salary: 2100.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:33:25.685 [main] Finance - Employee ID: 3
+Employee Name: Anna
+Age: 34
+Country: Poland
+City: Warsaw
+Salary: 2400.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:34:39.491 [main] App - Employee ID: 1
+Employee Name: James
+Age: 35
+Country: Poland
+City: Warsaw
+Salary: 2000.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:34:39.501 [main] App - ============Client============
+[INFO ] 2023-05-07 01:34:39.512 [main] App - Client ID: 1
+Client Name: Mike
+Age: 35
+Country: Poland
+City: Warsaw
+Type: Client
+Discount Category: Student
+[INFO ] 2023-05-07 01:34:39.512 [main] App - ============Driver============
+[INFO ] 2023-05-07 01:34:39.534 [main] App - Driver ID: 1
+First Name: Mark
+Last Name: Jones
+Age: 26
+Country: Poland
+City: Warsaw
+Type: Driver
+[INFO ] 2023-05-07 01:34:39.541 [main] App - ============Vehicle and Charge============
+[INFO ] 2023-05-07 01:34:39.568 [main] App - Vehicle ID: 1
+Brand: Toyota
+Model: Yaris
+Age: 3
+Color: Silver
+Size: Compact
+[INFO ] 2023-05-07 01:34:39.573 [main] App - Charge per Km: 12.5
+[INFO ] 2023-05-07 01:34:39.573 [main] App - ============Trip Details============
+[INFO ] 2023-05-07 01:34:39.613 [main] App - Trip ID: 1
+Driver ID: 1
+Client ID: 1
+Brand: Toyota
+Model: Yaris
+Color: Silver
+Age: 3
+Size: Compact
+Distance: 16.0
+Driver Name: James
+Client Name: Adam
+[INFO ] 2023-05-07 01:34:39.614 [main] App - Charge Per KM: 12.5 PLN
+[INFO ] 2023-05-07 01:34:39.619 [main] App - Discount Applied: 0.1
+[INFO ] 2023-05-07 01:34:39.620 [main] App - Discount Amount: 20.0 PLN
+[INFO ] 2023-05-07 01:34:39.621 [main] App - Discount Category: Student
+[INFO ] 2023-05-07 01:34:39.621 [main] App - Total charge BEFORE discount: 200.0 PLN
+[INFO ] 2023-05-07 01:34:39.622 [main] App - Total charge AFTER discount: 180.0 PLN
+[INFO ] 2023-05-07 01:34:39.623 [main] App - Trip Rating: 5.0
+[INFO ] 2023-05-07 01:34:39.624 [main] App - ============Vehicle type initializing============
+[INFO ] 2023-05-07 01:34:39.628 [main] App - ============Finance Department Employees============
+[INFO ] 2023-05-07 01:34:39.631 [main] Finance - Employee ID: 1
+Employee Name: James
+Age: 35
+Country: Poland
+City: Warsaw
+Salary: 2000.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:34:39.632 [main] Finance - Employee ID: 2
+Employee Name: Steve
+Age: 25
+Country: Poland
+City: Warsaw
+Salary: 2100.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:34:39.632 [main] Finance - Employee ID: 3
+Employee Name: Anna
+Age: 34
+Country: Poland
+City: Warsaw
+Salary: 2400.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:37:22.863 [main] App - Employee ID: 1
+Employee Name: James
+Age: 35
+Country: Poland
+City: Warsaw
+Salary: 2000.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:37:22.875 [main] App - ============Client============
+[INFO ] 2023-05-07 01:37:22.890 [main] App - Client ID: 1
+Client Name: Mike
+Age: 35
+Country: Poland
+City: Warsaw
+Type: Client
+Discount Category: Student
+[INFO ] 2023-05-07 01:37:22.891 [main] App - ============Driver============
+[INFO ] 2023-05-07 01:37:22.908 [main] App - Driver ID: 1
+First Name: Mark
+Last Name: Jones
+Age: 26
+Country: Poland
+City: Warsaw
+Type: Driver
+[INFO ] 2023-05-07 01:37:22.912 [main] RecruitingDriver - Driver ID: 1
+First Name: Mark
+Last Name: Jones
+Age: 26
+Country: Poland
+City: Warsaw
+Type: Driver
+[INFO ] 2023-05-07 01:37:22.912 [main] RecruitingDriver - Driver ID: 1
+First Name: Mark
+Last Name: Jones
+Age: 26
+Country: Poland
+City: Warsaw
+Type: Driver
+[INFO ] 2023-05-07 01:37:22.913 [main] App - ============Vehicle and Charge============
+[INFO ] 2023-05-07 01:37:22.923 [main] App - Vehicle ID: 1
+Brand: Toyota
+Model: Yaris
+Age: 3
+Color: Silver
+Size: Compact
+[INFO ] 2023-05-07 01:37:22.927 [main] App - Charge per Km: 12.5
+[INFO ] 2023-05-07 01:37:22.927 [main] App - ============Trip Details============
+[INFO ] 2023-05-07 01:37:22.962 [main] App - Trip ID: 1
+Driver ID: 1
+Client ID: 1
+Brand: Toyota
+Model: Yaris
+Color: Silver
+Age: 3
+Size: Compact
+Distance: 16.0
+Driver Name: James
+Client Name: Adam
+[INFO ] 2023-05-07 01:37:22.963 [main] App - Charge Per KM: 12.5 PLN
+[INFO ] 2023-05-07 01:37:22.966 [main] App - Discount Applied: 0.1
+[INFO ] 2023-05-07 01:37:22.967 [main] App - Discount Amount: 20.0 PLN
+[INFO ] 2023-05-07 01:37:22.967 [main] App - Discount Category: Student
+[INFO ] 2023-05-07 01:37:22.968 [main] App - Total charge BEFORE discount: 200.0 PLN
+[INFO ] 2023-05-07 01:37:22.969 [main] App - Total charge AFTER discount: 180.0 PLN
+[INFO ] 2023-05-07 01:37:22.969 [main] App - Trip Rating: 5.0
+[INFO ] 2023-05-07 01:37:22.970 [main] App - ============Vehicle type initializing============
+[INFO ] 2023-05-07 01:37:22.975 [main] App - ============Finance Department Employees============
+[INFO ] 2023-05-07 01:37:22.978 [main] Finance - Employee ID: 1
+Employee Name: James
+Age: 35
+Country: Poland
+City: Warsaw
+Salary: 2000.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:37:22.978 [main] Finance - Employee ID: 2
+Employee Name: Steve
+Age: 25
+Country: Poland
+City: Warsaw
+Salary: 2100.0
+Department: Finance
+Years of Experience: 7
+[INFO ] 2023-05-07 01:37:22.979 [main] Finance - Employee ID: 3
+Employee Name: Anna
+Age: 34
+Country: Poland
+City: Warsaw
+Salary: 2400.0
+Department: Finance
+Years of Experience: 7

@@ -1,88 +1,29 @@
 package Departments;
+import org.example.Employee;
+import java.util.ArrayList;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Finance extends Department {
-    private int employeeID;
-    private String employeeFirstName;
-    private String employeeLastName;
-    private int age;
-    private String country;
-    private String city;
-    private double salary;
-    private int yearsOfExp;
 
-    public Finance(int employeeID, String employeeFirstName, String employeeLastName, int age, String country, String city, double salary, int yearsOfExp, String managerfistName, String managerLastName) {
-        super(managerfistName, managerLastName);
-        this.employeeID = employeeID;
-        this.employeeFirstName = employeeFirstName;
-        this.employeeLastName = employeeLastName;
-        this.age = age;
-        this.country = country;
-        this.city = city;
-        this.salary = salary;
-        this.yearsOfExp = yearsOfExp;
-    }
+   private static final Logger LOGGER = LogManager.getLogger(Finance.class);
 
-    public int getEmployeeID() {
-        return employeeID;
-    }
+    public static void addShowEmployee() {
+        ArrayList<Employee> emplist = new ArrayList<>();
+        Employee emp1 = new Employee(1, "James", "Adam", 35,
+                "Poland", "Warsaw", "Employee", 2000, "Finance", 7);
+        Employee emp2 = new Employee(2, "Steve", "David", 25,
+                "Poland", "Warsaw", "Employee", 2100, "Finance", 7);
+        Employee emp3 = new Employee(3, "Anna", "Williams", 34,
+                "Poland", "Warsaw", "Employee", 2400, "Finance", 7);
+        emplist.add(emp1);
+        emplist.add(emp2);
+        emplist.add(emp3);
 
-    public void setEmployeeID(int employeeID) {
-        this.employeeID = employeeID;
-    }
-
-    public String getEmployeeFirstName() {
-        return employeeFirstName;
-    }
-
-    public void setEmployeeFirstName(String employeeFirstName) {
-        this.employeeFirstName = employeeFirstName;
-    }
-
-    public String getEmployeeLastName() {
-        return employeeLastName;
-    }
-
-    public void setEmployeeLastName(String employeeLastName) {
-        this.employeeLastName = employeeLastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-    public int getYearsOfExp() {
-        return yearsOfExp;
-    }
-
-    public void setYearsOfExp(int yearsOfExp) {
-        this.yearsOfExp = yearsOfExp;
+        for (Employee emp : emplist) {
+           LOGGER.info(emp);
+        }
     }
 }
+

@@ -2,6 +2,7 @@ package Vehicle;
 
 import Enums.Discount;
 import Enums.Tariffs;
+import Exceptions.TripRatingException;
 import Interfaces.IDiscount;
 import Interfaces.IRating;
 import Interfaces.ITripCalculator;
@@ -23,7 +24,9 @@ public class Trip implements IDiscount, ITripCalculator, IRating {
     private double charge;
     private double rating;
 
-    public Trip(int tripID, int driverID, int clientID, String brand, String model, int age, String color, String size, double distance, String driverName, String clientName, String clientCat) {
+    public Trip(int tripID, int driverID, int clientID, String brand, String model, int age,
+                String color, String size, double distance, String driverName, String clientName,
+                String clientCat) {
         this.tripID = tripID;
         this.driverID = driverID;
         this.clientID = clientID;
@@ -71,6 +74,7 @@ public class Trip implements IDiscount, ITripCalculator, IRating {
         return calculateTripBefDisc() - totalDiscount();
     }
 
+
     public int getTripIDID() {
         return tripID;
     }
@@ -78,13 +82,18 @@ public class Trip implements IDiscount, ITripCalculator, IRating {
 
     @Override
     public double getRating() {
-        return this.rating;
+        return rating;
     }
 
     @Override
     public void setRating(double rating) {
         this.rating = rating;
     }
+
+    public void validateRating() throws TripRatingException {
+        if (rating < 0 || rating > 5)
+            throw new TripRatingException("Rating should be between 0 to 5");
+        }
 
     public void setTripID(int tripID) {
         this.tripID = tripID;
@@ -186,4 +195,11 @@ public class Trip implements IDiscount, ITripCalculator, IRating {
         this.charge = charge;
     }
 
+
+    @Override
+    public String toString(){
+        return "Trip ID: " + tripID + "\n" + "Driver ID: " + driverID + "\n" + "Client ID: " + clientID + "\n" + "Brand: " + brand
+                + "\n" + "Model: " + model + "\n" + "Color: " + color + "\n" + "Age: " + age + "\n"
+                + "Size: " + size + "\n" + "Distance: " + distance + "\n" + "Driver Name: " + driverName + "\n" + "Client Name: " + clientName ;
+    }
 }
